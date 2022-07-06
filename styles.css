@@ -16,8 +16,11 @@
     position: fixed;
     margin: auto;
     left: 0;
-    right: 0;
+    right: 0;   
     padding: 10px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
 }
 
 .navbar a:hover{
@@ -57,7 +60,9 @@ h2 span{
     margin: 0px 10px;
 }
 
-
+i:hover{
+    cursor: pointer;
+}
 
 .bodyBlock{
     display: flex;
@@ -66,6 +71,11 @@ h2 span{
 .bodyBlock p{
     margin: 0;
 }
+
+.bodyblock mark { 
+    background-color: yellow;
+    color: black;
+  }
 
 .bodyBlock div{
     display: block;
